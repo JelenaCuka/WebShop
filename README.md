@@ -215,7 +215,6 @@ Razni društveni plug-inovi i dodaci (izvor:<a class="LinkKlasa">https://www.inf
          <p>Uklanjanje predmeta iz košarice (skice trenutne narudžbe)</p>
         <h3>ukloniModeratora.php</h3>
          <p>Oduzimanje moderatorskih ovlasti nad određenom kategorijom određenom korisniku</p>
-        
     </div>
 </div>
 
