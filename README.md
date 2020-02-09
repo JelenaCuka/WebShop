@@ -82,7 +82,6 @@ koliko se korisnika želi prikaz. Također može definirati vremenski period (od
 vidjeti statistiku.
     </div>
     <div>    
-        
         <h2>Opis projektnog riješenja</h2>
     <div>Za realizaciju projekta koristile su se tehnologije HTML5,CSS3,JQuery,Javascript,AJAX te u potpunosti sustav predložaka Smarty koji omogućava još veće odvajanje strukture od prezentacije </div>
     <h2>Što je Smarty?</h2>
@@ -102,7 +101,6 @@ Razni društveni plug-inovi i dodaci (izvor:<a class="LinkKlasa">https://www.inf
         <h3>footer.tpl</h3>
         <p>Učitava se u svim skriptama, footer za sve stranice</p>
         <h3>header.tpl</h3>
-        
          <p>Zaglavlje za sve stranice, poziva ispis drugačije navigacije po tipovima korisnika</p>
         <h3>index.tpl</h3>
          <p>Predložak za početnu stranicu</p>
