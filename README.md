@@ -1,4 +1,7 @@
 # WebShop
+
+![kalelargaFinal](https://user-images.githubusercontent.com/26230313/74102867-c2baba80-4b47-11ea-85fe-b7fb9a357ed2.png)
+
 Webshop project made while learning web development technologies. (2018) 
 
 Files that contain sensitive data are not uploaded. (eg. database configuration )
