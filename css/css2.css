@@ -1,0 +1,438 @@
+@media only screen and  (max-width: 480px){
+    header h1{
+        color: #fafafa;
+        /*background-color: #3F3F3F;*/
+        background-color:    rgba(105,105,105,  0.8);
+        max-width: 100%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    header a {
+        background-color: #ffffff;
+        padding: 10px;
+        border: 1px #99bfa3 solid;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 25px;
+
+    }
+    header p{
+        padding:5px;
+    }
+    header{
+        background-position: left bottom;
+        background-size: 70%;
+    }
+    
+    nav ul li{
+        width:100%;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border-bottom: 2.5px solid #f0f0f0;
+    }
+     nav ul li:hover{
+        /*background-color: rgba(135,196,174,0.8);*/
+        background: linear-gradient( to right, #87c4ae, #99c89c );
+    }
+    nav ul li a:hover{
+        color:#f0f0f0;
+    }
+    nav ul li a{
+    font-size: 16px;
+    display: block;
+    padding: 15px;
+    }
+    article, aside, ol {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+    #sadrzajContent aside figure{
+        max-width: 100%;
+        margin:auto;
+        
+    }
+    #sadrzajContent figure img {
+    max-width: 90%;
+    margin:auto;
+    border-radius: 500px;
+    padding: 20px;
+}
+#sadrzajContent figure figcaption{
+    text-align: center;
+}
+    #sadrzajContent article, #oautoru aside{
+        width:100%;
+        padding: 0px;
+    }
+    #sadrzajContent article, #sadrzaj aside{
+        width:100%;
+    }
+    #sadrzajContent article,#sadrzajContent aside {
+        margin: 0 auto;
+        float:none;
+        display:block;
+        width: 100%;
+}
+#sadrzajContent article li{
+    list-style-position: inside;
+    width:100%;
+    box-sizing: border-box;
+}
+    #audioZapisPocetna{
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin:auto;
+        margin-left:0px;
+        margin-right: 0px;
+
+    }
+    footer,.push{
+      height:500px;  
+    }
+    footer p{
+        padding:  10%;
+    }
+    footer figure{
+        content: "";
+        display:table;
+        clear:both;
+    }
+    #svrhaStranice{
+        padding: 10%;
+    }
+    h1,h2,h3,p{
+        overflow-wrap: break-word;
+    }
+    #sadrzajContent article ol{
+        width: 100%;
+    }
+    #sadrzajContent aside{
+        width:100%;
+        float: right;
+    }
+    #audioZapisPocetna{
+        width:100%;
+        margin: 0px auto;
+    }
+    div.galerijaSlike{
+        width: 100%;
+    }
+    .SlikeiVideo iframe{
+        width:100%;
+        border-radius: 0px;
+        padding-bottom: 5px;
+    }
+    .divVideo{
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+    .VideoFloat{
+        width: 100% ;
+        height: auto;
+    }
+    .SakrijZaSveOsimMobilnog{
+        visibility:visible;
+    }
+    #prijavaObrazac fieldset{
+        border: 0px #e0e0e0 solid;
+        padding:0px;
+        margin:0px;
+        width:100%;
+    }
+    #prijavaObrazac legend {
+        width:100%;
+    }
+    #prijavaObrazac label{
+        width:100%;
+    }
+    #prijavaObrazac input{
+         border-radius:0px;
+         padding: 0px;
+         margin: 0px;
+         width:100%;
+         border-left: 0;
+         border-right: 0;
+         margin-bottom: 10px;
+         line-height: 40px;
+    }
+    fieldset.regFieldset{
+        border: 0px #e0e0e0 solid;
+        padding:0px;
+        margin:0px;
+        width:100%;
+    }
+    legend.regLegend{
+        width:100%;
+    }
+    label.regLabel{
+       width:100%;
+    }
+    input.regInput{
+        border-radius:0px;
+         padding: 0px;
+         margin: 0px;
+         width: 100%;
+         border-left: 0;
+         border-right: 0;
+         margin-bottom: 10px;
+         
+    }
+    input.narudbaInput{
+        border-radius:0px;
+         padding: 0px;
+         margin: 0px;
+         width: 100%;
+         border-left: 0;
+         border-right: 0;
+         margin-bottom: 10px;
+         
+    }
+    .linkRegistracija{
+        text-align: right;
+    }
+    fieldset.obFieldset{
+        border: 0px #e0e0e0 solid;
+        padding:0px;
+        margin:0px;
+        width:100%;
+        border-radius: 0px;
+    }
+    legend.obLegend{
+        width:80%;
+    }
+    label.obLabel{
+       width:100%;
+       padding-top: 20px;
+    }
+    input.obInput{
+        border-radius:0px;
+         padding: 0px;
+         margin: 0px;
+         width:100%;
+    }
+    input.obInput, textarea.obInput, select.obInput{
+        width:100%;
+    }
+    .collapse{
+        /*visibility: collapse;*/
+        display:none;
+    }
+    #registracijaTable, #obTable, #obTable2,.tablicaDodaj{
+        width: 100%;
+        margin:0 ;
+        padding: 0;
+    }
+    #registracijaTable tr th, #obTable tr th #obTable2  tr th,.tablicaDodaj  tr th{
+        display: block;
+        width: 100%;
+        margin:0 ;
+        padding: 0;
+    }
+    #registracijaTable tr td, #obTable tr td, #obTable2  tr td,.tablicaDodaj  tr td{
+        display: block;
+        width: 100%;
+        margin:0 ;
+        padding: 0;
+    }
+    #registracijaTable tr, #obTable tr, #obTable2 tr,.tablicaDodaj  tr{
+        width: 100%;
+        margin:0 ;
+        padding: 0;
+    }
+    textarea.obInput{
+        width:100%;
+    }
+    input[type="file"]{
+        width: 100%;
+    }
+    input[list="grad_kupca"]{
+        max-width: 100%;
+    }
+    #frame_div iframe{
+        width:100%;
+    }
+    #frame_div{
+        width:100%;
+    }
+    .eraNav{
+        box-sizing: border-box;
+    }
+    .eraNav img{
+        width:100%;
+    }
+    .divSest,.divCetiri{
+        float:none;
+        margin: 0 auto;
+        display: block;
+    }
+    footer figure{
+        padding:0px;
+    }
+    #oautoru aside figure{
+        max-width: 100%;
+        margin:auto;
+        
+    }
+    #oautoru figure img {
+    max-width: 90%;
+    margin:auto;
+    border-radius: 500px;
+    padding: 20px;
+    }
+    #oautoru figure figcaption{
+        text-align: center;
+    }
+        #oautoru article, #oautoru aside{
+            width:100%;
+            padding: 0px;
+        }
+        #oautoru article, #sadrzaj aside{
+            width:100%;
+        }
+        #oautoru article,#oautoru aside {
+            margin: 0 auto;
+            float:none;
+            display:block;
+            width: 100%;
+    }
+    #oautoru article li{
+        list-style-position: inside;
+        width:100%;
+        box-sizing: border-box;
+    }
+       #oautoru article ol li{
+        overflow-wrap: break-word;
+    }
+    #oautoru article ol{
+        width: 100%;
+    }
+    #oautoru aside{
+        width:100%;
+        float: right;
+    }
+    #audioZapisPocetna{
+        width:100%;
+        margin: 0px auto;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 1023px){
+    footer figure{
+        max-width: 50%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 755px){
+    div.galerijaSlike{
+        width: 48%;
+    }
+}
+@media screen and (min-width: 481px){
+    nav{
+    background: linear-gradient( to right,#fdfbfb, #f0f0f0 );
+    }
+    nav ul{
+        border-bottom: 2.5px solid #f0f0f0;
+        max-width: 1600px;
+    }
+    nav ul li{
+        display: inline-block;
+        border: 0px;
+        border-right: 1.5px solid #f0f0f0;
+    }
+    nav ul li:hover a{
+        color: #87c4ae;
+        background: #fafafa;
+    }
+    nav ul li a{
+    padding: 15px 20px 15px 20px;
+    font-size: 24px;
+    line-height: 48px;
+    ;
+    }
+    nav ul{
+        float:right;
+    }
+    footer figure{
+        float: right;
+    }
+    #sadrzajContent article{
+        max-width: 66%;
+    }
+    #sadrzajContent aside{
+        max-width: 34%;
+    }
+    #audioZapisPocetna{
+        width:250px;
+        margin: 0px auto;
+    }
+    #sadrzajContent ol{
+        padding: 40px;
+    }
+    #sadrzajContent aside{
+        float:right;
+        border-top: 2px solid #f5f6f5;
+    }
+    #sadrzajContent aside figure{
+        padding-top: 30px;
+    }
+    .divVideo{
+        width: 30%;
+        display:inline-block;
+        float: left;
+        text-align: center;
+        padding: 20px;
+        margin: 0 auto 0 auto;
+    }
+    .regRed{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .obrazacKlasa{
+        padding: 5%;
+    }
+    div.Upozorenja{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #oautoru aside, #oautoru article{
+        max-width: 50%;
+    }
+    #audioZapisPocetna{
+        width:250px;
+        margin: 0px auto;
+    }
+    #oautoru ol{
+        padding: 40px;
+    }
+    #oautoru aside{
+        float:right;
+        border-top: 2px solid #f5f6f5;
+    }
+    #oautoru aside figure{
+        padding-top: 30px;
+    }
+    
+}
+@media screen and (min-width: 1600px){ 
+    .grupiranjeVeciEkrani{
+        max-width: 1600px;
+        margin: 0px auto;
+    }
+    .grupiranjeParagrafa{
+        max-width: 1600px;
+        margin: 20px auto;
+        border: 2px #f5f6f5 solid;
+        border-radius: 30px;
+        padding: 3%;
+    }
+    div.Upozorenja p{
+        max-width: 1600px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+
+}
