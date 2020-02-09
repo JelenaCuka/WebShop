@@ -4,7 +4,7 @@ Webshop project made while learning web development technologies. (2018)
 Files that contain sensitive data are not uploaded. (eg. database configuration )
 
 
-Short description.
+# Short description.
 
 This is webshop page. Customers can make orders for products grouped by categories. Product search is enabled. Products can be added to order, product quantity is defined while creating order. 
 Customers can see Ads and by clicking on ads links connected with ads are opened. 
@@ -16,7 +16,7 @@ Moderators define products for cactegories  in which they are in chare of.  They
 For adPositions that moderator moderates , moderator creates ad types. He can also approve or disapprove requests for blocking ads. 
 Administrator creates positions and configures system. He also can see statistics. 
 
-Description (longer, croatian)
+# Description (longer, croatian)
 U ovoj vitrualnoj trgovini postoje četiri tipa korisnika: anonimni (neregistrirani), registrirani, moderator i administrator. 
         <h3>Anonimni / neregistrirani korisnik</h3>
         Može vidjeti popis kategorija predmeta i odabirom kategorije predmeta dobiva popis
@@ -82,3 +82,142 @@ koliko se korisnika želi prikaz. Također može definirati vremenski period (od
 vidjeti statistiku.
     </div>
     <div>    
+        
+        <h2>Opis projektnog riješenja</h2>
+    <div>Za realizaciju projekta koristile su se tehnologije HTML5,CSS3,JQuery,Javascript,AJAX te u potpunosti sustav predložaka Smarty koji omogućava još veće odvajanje strukture od prezentacije </div>
+    <h2>Što je Smarty?</h2>
+    <div>Smarty – sustav web predložaka koji već dugo vremena koriste profesionalci. Mnogi su ovaj sustav odbacivali jer su ga smatrali nepotrebnim. Zašto onda Smarty? Smarty je PHP klasa koja nudi brzu, promjenjivu i kvalitetnu prezentaciju Vaše web stranice. Omogućava odvajanje dizajna od koda tako što web stranicu radi na principu predložaka pridonoseći na taj način i sugurnosti Vašeg projekta.
+Postoji mnoštvo drugih razloga zašto koristiti Smarty:
+Vaša web stranica će se učitavati brže! 
+Poboljšanje sigurnosti kao rezultat odvajanja aplikacijskog koda od dizajna 
+Ubrzani razvoj 
+Upravljanje korisničkim dopuštenjima te ciljanom logikom
+Efikasnije održavanje Vaše web stranice
+Ugrađene funkcije 
+Razni društveni plug-inovi i dodaci (izvor:<a class="LinkKlasa">https://www.info-novitas.hr/tehnologija/php-razvojno-okruzenje/smarty-framework/</a>)</div>
+        <h2>Smarty datoteke</h2>
+        <p>Pozivaju se iz php skripti</p>
+        <h3>dokumentacija.tpl</h3>
+        <p>Trenutni predložak, sadrži html kod za skriptu dokumentacije</p>
+        <h3>footer.tpl</h3>
+        <p>Učitava se u svim skriptama, footer za sve stranice</p>
+        <h3>header.tpl</h3>
+        
+         <p>Zaglavlje za sve stranice, poziva ispis drugačije navigacije po tipovima korisnika</p>
+        <h3>index.tpl</h3>
+         <p>Predložak za početnu stranicu</p>
+        <h3>kategorije.tpl</h3>
+         <p>Predložak za kategorije</p>
+        <h3>kategorijeRegistracija.tpl</h3>
+        <p>Odabir kategorija </p>
+        <h3>moderator.tpl</h3>
+        <p>Predložak za stranicu moderatora gdje moderator može za svoje kategorije dodjeljivati predmeete ,dodavati im akcije i dodavati vrste oglasa pozicijama koje moderira.</p>
+        <h3>narudbaPregled.tpl</h3>
+        <p>Korisnici vide svoje narudzbe</p>
+        <h3>narudbeModerator.tpl</h3>
+         <p>Moderatori mogu potvrditi narudžbe sve. i Zahtjeve za oglas na pozicijama gdje su zaduženi.</p>
+        <h3>narudzba.tpl</h3>
+         <p>Prikaz i uređivanje trenutne narudžbe</p>
+        <h3>o_autoru.tpl</h3>
+         <p>Podaci o autoru</p>
+        <h3>oglasi.tpl</h3>
+         <p>Pregled vrsta oglasa, izrada zahtjeva za novi oglas, pregled galerije vlastitih zahtjeva za oglas</p>
+        <h3>prijavaRegistracija.tpl</h3>
+         <p>Prijava i registracija</p>
+        <h2>CSS</h2>
+        <p>Razdvojen za nekoliko veličina medija</p>
+        <h3>css1.css</h3>
+         <p>Glavni općenitiji css</p>
+        <h3>css2.css</h3>
+         <p>CSS razdvojen na 3-4 širine ekrana (medija)</p>
+        <h2>Javascript JQuery</h2>
+        <p>Dohvaćanje ajax poziva i provjere unosa</p>
+        <h3>jsFile01.js</h3>
+         <p>Provjere kod registracije</p>
+        <h3>jsFile02.js</h3>
+         <p>Poziv ajax metoda na gumbove primjerice za odabir kategorija, dodavanje predmeta u povijest pregledavanja, odobravanje zahtjeva i sl.</p>
+        <h3>slider.js</h3>
+         <p>Pokušaj prikaza oglasa u obliku slidera, zbrejkan</p>
+        <h2>PHP</h2>
+        <h3>korisnici.php</h3>
+         <p>Skripta za ispis korisnika u direktoriju privatno</p>
+        <p>Ispis korisnika zaštićen pristup</p>
+        <h3>o_autoru.php</h3>
+         <p>Skripta za poziv predloška o autoru</p>
+        <h3>baza.class.php</h3>
+         <p>Skripta sadrži klasu za povezivanje s bazom</p>
+        <h3>blokirajKorisnika.php</h3>
+         <p>Ažuriranje da se korisnik pozivom ove skripte blokira</p>
+        <h3>dodajUKosaricu.php</h3>
+         <p>Odabrani predmeti se dodaju u košaricu</p>
+        <h3>dodijelimoderatora.php</h3>
+         <p>Dodavanje pozicija, promjena tipa korisnika, dodjeljivanje kategorije moderatoru, funkcije dohvaćanja poziija i dohvaćanja stranica, dohvaćanja korisnika i moderatora.</p>
+        <h3>dohvatiLokacijeZaStranicu.php</h3>
+         <p>Dohvaća lokacije u JSON obliku</p>
+        <h3>dohvatRacun.php</h3>
+         <p>Dohvaća račune po IDju narudžbe i vraća ih u json obliku</p>
+        <h3>dokumentacija.php</h3>
+         <p>poziv predloška dokumentacije</p>
+        <h3>filterPredmetNaziv.php</h3>
+         <p>Dohvaća predmete u json obliku</p>
+        <h3>funkcije.php</h3>
+        <p>U skripti funkcije php nalaze se sve glavne korištene klase sa svojstvima i metodama i ostalim funkcijama vezanim za rad te se često pozivaju u ostalim skriptama.</p>
+        <p>Sadrži <strong>KLASE </strong>Pozicija,Oglas,Lokacija,Stranica,Racun,Kategorija,Tip,Konfiguracija,Korisnik, Narudba,Predmet,VrstaOglasa. </p>
+         <p>Još sadrži funkcije za dohvaćanja korisničkog imena, kategorija, moderatora, predmeta, predmeta po filteru, dodavanje u košaricu, dohvaćanje predmeta u narudžbi, 
+         suma narudžbe, dohvaćanje narudžbe, lokacija, aktivnih oglasa, najmanje cijene oglasa.</p>
+        <h3>header.php</h3>
+         <p>Funkcija za provjeru uloge korisnika, preusmjeravanja https-http, ispis navigacije, dohvaćanje konfiguracije, brisanje sesije</p>
+        <h3>index.php</h3>
+         <p>Pozivanje predloška početne stranice i prikaz tamo prisutnih oglasa ili njihovih minimalnih cijena</p>
+        <h3>kategorije.php</h3>
+         <p>Kategorije i oglasi</p>
+        <h3>korime.php</h3>
+         <p>Dohvaća korisničko ime (svi korisnici) ispisduje JSON</p>
+        <h3>korisnici2.php</h3>
+         <p>JOSN svih podataka o korisnicima</p>
+        <h3>kreirajKategorije.php</h3>
+         <p>Dodavanje i ažuriranje kategorija</p>
+        <h3>moderator.php</h3>
+         <p>Dohvaćanje pozicija određenog moderatora,dodavanje predmeta, dodavanje akcija, dodavanje vrsta oglasa, </p>
+        <h3>narudbaPregled.php</h3>
+         <p>Dohvaćanje narudžbi ovisno o tipu korisnika anonimni-registrirani-moderator</p>
+        <h3>narudzba.php</h3>
+         <p>Finalizacija izrada narudžbe</p>
+        <h3>narudzbeModerator.php</h3>
+         <p>Potvrda narudžbi i oglasa!</p>
+        <h3>o_autoru.php</h3>
+         <p>poziv podataka o autoru</p>
+        <h3>odaberiKategoriju.php</h3>
+         <p>JSON predmeta ovisno o odabranoj kategoriji</p>
+        <h3>odbijOglas.php</h3>
+         <p>Odbijanje oglasa</p>
+        <h3>odblokirajKorisnika.php</h3>
+         <p>Odblokiranvanje korisničkog računa</p>
+        <h3>oglasi.php</h3>
+         <p>Prikaz vrsta oglasa, dodavanje oglasa, i prikaz korisnikovih oglasa galerija</p>
+        <h3>potvrdiNarudzbu.php</h3>
+         <p>Potvrđivanje narudžbe i izrada računa</p>
+        <h3>potvrdiOglas.php</h3>
+         <p>Potvrđivanje oglasa</p>
+        <h3>povecajKlikove.php</h3>
+         <p>Povećanje broja klikova za oglas</p>
+        <h3>povijestSesija.php</h3>
+         <p>Dohvaćanje povijesti trenutne sesije</p>
+        <h3>pozicijaOglasaAzuriraj.php</h3>
+         <p>Ažuriranje pozicije oglasa</p>
+        <h3>prijavaRegistracija.php</h3>
+         <p>Obrađivanje prijave, registracije, aktivacije, slanje maila, generiranje kodova i sl.</p>
+        <h3>sesija.class.php</h3>
+         <p>Klasa rada sa sesijom dodana povijest i sl</p>
+        <h3>ukloniKategoriju.php</h3>
+         <p>Brisanje kategorije</p>
+        <h3>ukloniKorisnika.php</h3>
+         <p>Brisanje korisnika</p>
+        <h3>ukloniKosarica.php</h3>
+         <p>Uklanjanje predmeta iz košarice (skice trenutne narudžbe)</p>
+        <h3>ukloniModeratora.php</h3>
+         <p>Oduzimanje moderatorskih ovlasti nad određenom kategorijom određenom korisniku</p>
+        
+    </div>
+</div>
+
